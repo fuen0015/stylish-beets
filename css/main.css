@@ -12,7 +12,13 @@ figure + p {
   font-weight: bold;
 }
 
-h1, h2 {
+h2 {
+  font-family: "PT Sans";
+  font-weight: bold;
+  color: #222;
+}
+
+.intro {
   font-family: "PT Sans";
   font-weight: bold;
   color: #222;
@@ -25,7 +31,8 @@ ol {
   font-weight: bold;
 }
 
-nav a:hover {
+a:hover {
+  text-decoration: none;
   color: #3f1622;
 }
 
@@ -35,14 +42,14 @@ a {
 }
 
 h2 + ol {
-  font-family: "PT+Serif";
+  font-family: "PT Serif";
   font-weight: normal;
   font-size: 1.125rem;
   list-style-type: lower-greek;
 }
 
 dl dt {
-  font-family: "PT+Serif";
+  font-family: "PT Serif";
   font-weight: bold;
 }
 
@@ -52,6 +59,7 @@ h2 + p {
 
 figcaption {
   font-style: italic;
+  text-align: center;
 }
 
 blockquote {
