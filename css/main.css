@@ -4,6 +4,10 @@ html {
   font-family: "PT+Serif";
 }
 
+img {
+  width: 100%;
+}
+
 figure + p {
   font-weight: bold;
 }
@@ -19,6 +23,10 @@ ol {
   font-size: 1.5rem;
   font-family: "PT Sans";
   font-weight: bold;
+}
+
+nav a:hover {
+  color: #3f1622;
 }
 
 a {
@@ -52,7 +60,7 @@ blockquote {
 }
 
 cite {
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 ul {
