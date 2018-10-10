@@ -4,6 +4,11 @@ html {
   font-family: "PT+Serif";
 }
 
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 img {
   width: 100%;
 }
@@ -15,18 +20,23 @@ figure + p {
 h2 {
   font-family: "PT Sans";
   font-weight: bold;
-  color: #222;
+  color: #3f1622;
+  font-size: 1.125rem;
 }
 
 .intro {
   font-family: "PT Sans";
   font-weight: bold;
-  color: #222;
+  color: #3f1622;
+}
+
+p {
+  font-family: "PT Serif";
 }
 
 ol {
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-family: "PT Sans";
   font-weight: bold;
 }
@@ -63,6 +73,7 @@ figcaption {
 }
 
 blockquote {
+  font-family: "PT Serif";
   font-style: italic;
   font-size: 1.5rem;
 }
